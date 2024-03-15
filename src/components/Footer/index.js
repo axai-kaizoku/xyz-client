@@ -14,7 +14,7 @@ export default function Footer() {
 		try {
 			const email = e.target[0].value;
 			const res = await axios.post(
-				'https://xyz-api-ujy5.onrender.com/api/v1/mailing',
+				'https://xyz-api-ujy5.onrender.com/api/v1/mailing/post',
 				{
 					email: email,
 				},
