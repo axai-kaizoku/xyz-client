@@ -13,9 +13,12 @@ export default function Footer() {
 		setError('');
 		try {
 			const email = e.target[0].value;
-			const res = await axios.post('http://localhost:3030/api/v1/mailing', {
-				email: email,
-			});
+			const res = await axios.post(
+				'https://xyz-api-ujy5.onrender.com/api/v1/mailing',
+				{
+					email: email,
+				},
+			);
 			if ((await res.status) === 201) {
 				e.target[0].value = '';
 				setError('');
