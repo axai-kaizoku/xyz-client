@@ -1,0 +1,22 @@
+.bottom {
+	width: 0;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 200px solid black;
+}
+.top {
+	width: 0;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 200px solid black;
+}
+
+@media screen and (max-width: 640px) {
+	.bottom {
+		border-top: 160px solid black;
+	}
+
+	.top {
+		border-bottom: 160px solid black;
+	}
+}
