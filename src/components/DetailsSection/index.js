@@ -7,7 +7,7 @@ export default function DetailsSection() {
 				WHY CHOOSE XYZ?
 			</h2>
 			<div className="w-full flex items-center mb-20 justify-center">
-				<div className="w-11/12 max-sm:gap-3 gap-10 sm:flex-wrap flex max-sm:flex-col items-center justify-center ">
+				<div className="w-[94%] max-sm:gap-3 gap-10 sm:flex-wrap flex max-sm:flex-col items-center justify-center ">
 					<DetailBox
 						num="01"
 						title="SEARCH AND FILTERS"
